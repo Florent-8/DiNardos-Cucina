@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DiNardo's Cucina &amp; Mercato | Harrison, NY</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "inverse-primary": "#88d3d3",
+              "secondary-fixed": "#ffdbcc",
+              "tertiary": "#63553a",
+              "on-tertiary-fixed": "#241a05",
+              "surface": "#fdf9f3",
+              "surface-container-low": "#f7f3ed",
+              "on-tertiary": "#ffffff",
+              "surface-bright": "#fdf9f3",
+              "on-secondary": "#ffffff",
+              "on-surface": "#1c1c18",
+              "secondary": "#9d4311",
+              "error": "#ba1a1a",
+              "on-tertiary-container": "#fff2df",
+              "surface-container-highest": "#e6e2dc",
+              "error-container": "#ffdad6",
+              "on-tertiary-fixed-variant": "#52452b",
+              "on-secondary-container": "#702900",
+              "primary-container": "#2a7a7a",
+              "surface-container": "#f1ede7",
+              "primary": "#006161",
+              "on-primary": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "on-surface-variant": "#3f4948",
+              "tertiary-container": "#7d6d50",
+              "surface-variant": "#e6e2dc",
+              "primary-fixed": "#a4f0ef",
+              "on-error": "#ffffff",
+              "surface-tint": "#106969",
+              "surface-dim": "#dddad4",
+              "on-primary-fixed-variant": "#004f50",
+              "on-background": "#1c1c18",
+              "outline": "#6f7979",
+              "surface-container-high": "#ebe8e2",
+              "on-secondary-fixed-variant": "#7c2e00",
+              "on-error-container": "#93000a",
+              "secondary-container": "#fe8d56",
+              "on-primary-container": "#befffe",
+              "inverse-surface": "#31302d",
+              "primary-fixed-dim": "#88d3d3",
+              "outline-variant": "#bec9c8",
+              "secondary-fixed-dim": "#ffb595",
+              "tertiary-fixed-dim": "#d8c4a2",
+              "inverse-on-surface": "#f4f0ea",
+              "on-primary-fixed": "#002020",
+              "tertiary-fixed": "#f5e0bd",
+              "background": "#fdf9f3",
+              "on-secondary-fixed": "#351000"
+            },
+            fontFamily: {
+              "headline": ["Newsreader", "serif"],
+              "body": ["Work Sans", "sans-serif"],
+              "label": ["Work Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .serif-italic { font-family: 'Newsreader'; font-style: italic; }
+        .hero-gradient {
+            background: linear-gradient(to bottom, rgba(28, 28, 24, 0.4), rgba(28, 28, 24, 0.6));
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-[#fdf9f3]/85 dark:bg-[#1c1c18]/85 backdrop-blur-md border-b border-[#bec9c8]/20 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<div class="text-2xl font-serif italic text-[#006161] dark:text-[#2a7a7a]">DiNardo's</div>
+<div class="hidden md:flex items-center gap-8 font-['Newsreader'] tracking-tight text-on-surface">
+<a class="text-[#006161] border-b-2 border-[#9d4311] pb-1 hover:text-[#9d4311] transition-colors duration-300" href="#cucina">Cucina</a>
+<a class="text-[#3f4948] hover:text-[#9d4311] transition-colors duration-300" href="#mercato">Mercato</a>
+<a class="text-[#3f4948] hover:text-[#9d4311] transition-colors duration-300" href="#prepared">Prepared Foods</a>
+<a class="text-[#3f4948] hover:text-[#9d4311] transition-colors duration-300" href="#story">Our Story</a>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-md font-medium hover:opacity-90 transition-all duration-200 active:scale-95">
+                Visit Us
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Wide shot of a charming Italian deli storefront with a signature deep teal awning and large windows displaying gourmet foods" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDN9O5v1Al9WnMAtsvdNojjosI-gVYesDtQnEZKHDFigBGZDysReLFZ2Ass0KQua20BKIIqOLWz1K-XGhQI2FOGuR6Q8cGWUFN7tauRjKBz3hXspYRpY8DHlwID26vdlGdzXYu2RAFPrK_rNHooke30UwYYOKVd-FQu7sNJk6kvORfSKdyxAsaDeDS0Uv8gtMHoUNqW8F_5nQSKS0_dlJDBs3ww7e4AanJbZkWQRJtd_FkxJqWQsDsZ3-TRK9Yr-P-9Us32RAZocgg')">
+<div class="absolute inset-0 hero-gradient"></div>
+</div>
+<div class="relative z-10 text-center px-4 max-w-4xl">
+<h1 class="font-headline text-5xl md:text-8xl text-surface font-extrabold tracking-tight mb-4 drop-shadow-sm">
+                DiNardo's <span class="italic font-normal">Cucina &amp; Mercato</span>
+</h1>
+<p class="font-headline italic text-2xl md:text-3xl text-surface-container-low mb-12 tracking-wide">
+                Homemade Italian. Fresh Every Day.
+            </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+<a class="bg-primary hover:bg-primary-container text-on-primary px-10 py-4 rounded-md text-lg font-medium transition-all duration-300 shadow-xl" href="#visit">
+                    Visit Us in Harrison
+                </a>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+<span class="material-symbols-outlined text-surface text-4xl">expand_more</span>
+</div>
+</header>
+<!-- Highlights Row -->
+<section class="bg-surface-container py-8 border-y border-outline-variant/10">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 items-center">
+<div class="flex items-center gap-3 justify-center">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label text-sm uppercase tracking-widest text-on-surface-variant font-semibold">5.0 Stars on Google</span>
+</div>
+<div class="flex items-center gap-3 justify-center">
+<span class="material-symbols-outlined text-secondary">restaurant_menu</span>
+<span class="font-label text-sm uppercase tracking-widest text-on-surface-variant font-semibold">Authentic Recipes</span>
+</div>
+<div class="flex items-center gap-3 justify-center">
+<span class="material-symbols-outlined text-secondary">storefront</span>
+<span class="font-label text-sm uppercase tracking-widest text-on-surface-variant font-semibold">Cucina + Market</span>
+</div>
+<div class="flex items-center gap-3 justify-center">
+<span class="material-symbols-outlined text-secondary">location_on</span>
+<span class="font-label text-sm uppercase tracking-widest text-on-surface-variant font-semibold">Harrison, NY</span>
+</div>
+</div>
+</div>
+</section>
+<!-- What We Offer -->
+<section class="py-24 bg-surface" id="offerings">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-headline text-4xl md:text-6xl text-on-surface mb-4">The Heart of the Mercato</h2>
+<div class="w-24 h-1 bg-secondary mx-auto mb-6"></div>
+<p class="font-body text-on-surface-variant max-w-2xl mx-auto text-lg italic">
+                    Bringing the authentic flavors of an Italian neighborhood market to Harrison.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Cucina Card -->
+<div class="group bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t-4 border-primary/20 hover:border-primary">
+<div class="mb-8 overflow-hidden rounded-lg aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close-up of freshly made fettuccine pasta with a rich tomato sauce and basil garnish on a rustic ceramic plate" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDI6m6WRT_g9MNeGfrjd-GVO6GRIc65YRvJkuHAbgebOP2SrM9oRA0TXtGRF4_ewGbsMf9T_ZiwCw9_Te8hPHJb-ahgmACxND4WDqNbqkMpGBeEyM81vbKaXdL4Bdn-Sl7xLA8VPlNLjvfJlrxm80Wf9NTTCJyRbGGLUoaAtbLkqoKNmv3RMka7YrMXcbe1Z1gfddb7nbqN0wocJvV7yGiSYdvyauqskkr5qbXHcvJCj7Ws1KsaM6-Ai3amrqLrEPn4CQNKypF1f2U"/>
+</div>
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">skillet</span>
+<h3 class="font-headline text-3xl text-on-surface">Cucina</h3>
+</div>
+<p class="font-body text-on-surface-variant mb-6 leading-relaxed">
+                        Handmade daily. Our kitchen produces authentic Italian meals, from traditional ragu to seasonal specials that taste like home.
+                    </p>
+<span class="font-label text-sm font-semibold text-secondary uppercase tracking-widest group-hover:underline cursor-default">Fresh Daily Pastas</span>
+</div>
+<!-- Mercato Card -->
+<div class="group bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t-4 border-primary/20 hover:border-primary">
+<div class="mb-8 overflow-hidden rounded-lg aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Assortment of Italian cured meats, artisanal cheeses, and olives arranged beautifully on a wooden charcuterie board" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvtcLFX1prgeBseJeoIFJy8xRuMXiLoMnrxaH43vaQVsLrduRP2r1gm32iayLrr_qFYOf0gl5TL9gkSez5FnsRDeV2PNAl9cH4hDwqItryibYhazxyAu30EfXV2nU58MH-g1v2v94BBBt7kdHHBWqn3K3UcBHdr5rzZX_O2YTFyhPnPdEw6wHWLk0TKO0CPoLLI8_dkmRqFbrKBVFXkKbNAVHtWka_NgfOkulb84_hwCgKh4Zz_SHDxeP-WDYyZijLl670Yis3h_I"/>
+</div>
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">shopping_basket</span>
+<h3 class="font-headline text-3xl text-on-surface">Mercato</h3>
+</div>
+<p class="font-body text-on-surface-variant mb-6 leading-relaxed">
+                        A curated selection of DOP cheeses, hand-sliced prosciutto, and premium pantry imports straight from Italy's finest producers.
+                    </p>
+<span class="font-label text-sm font-semibold text-secondary uppercase tracking-widest group-hover:underline cursor-default">Artisanal Imports</span>
+</div>
+<!-- Prepared Foods Card -->
+<div class="group bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container-high border-t-4 border-primary/20 hover:border-primary">
+<div class="mb-8 overflow-hidden rounded-lg aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Shelf filled with glass jars of vibrant homemade marinara sauce and pesto next to freshly baked Italian bread loaves" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQxt5T0WzjpCbNoVmSy4FUTUctkzhtUyM6MbT4Olv_jurCJN7BHctRAuReTHKgTD0pYhf4e-joJezm9bclnpDJ51GBq0oGU7p2wP7sQP9w1MQ-0TpXsakJUOre30PUj_ulAqpUMux8zKNFiTuqHpgQ4O7UNV0CU4gpzvDMHMrfoJ5RVpsQj2EnudlC-F3_9-csnJLdCR3lkJxWXl5ch-spJU4WIpt6qo7QaFadDMYNJ-uMGU1bLdFXDvQUtn8VafjtSNpalTs0g40"/>
+</div>
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">bakery_dining</span>
+<h3 class="font-headline text-3xl text-on-surface">Prepared Foods</h3>
+</div>
+<p class="font-body text-on-surface-variant mb-6 leading-relaxed">
+                        Ready-to-enjoy gourmet salads, house-made sauces, and artisan baked goods perfect for a quick lunch or an effortless dinner.
+                    </p>
+<span class="font-label text-sm font-semibold text-secondary uppercase tracking-widest group-hover:underline cursor-default">House-made Sauces</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Deli Divider -->
+<div class="flex justify-center items-center py-4">
+<div class="h-[1px] w-3/5 bg-tertiary-fixed-dim"></div>
+</div>
+<!-- Our Story Section -->
+<section class="py-24 bg-surface" id="story">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-1/2 order-2 md:order-1">
+<h4 class="font-label text-secondary uppercase tracking-[0.2em] font-semibold mb-4 text-sm">Est. in Harrison</h4>
+<h2 class="font-headline text-5xl md:text-6xl text-on-surface mb-8 leading-tight">Tradition on <br/><span class="italic font-normal">Halstead Avenue</span></h2>
+<p class="font-body text-on-surface-variant text-lg leading-relaxed mb-6">
+                        DiNardo's was born from a simple vision: to create a space where the community could experience the warmth and quality of a traditional Italian village market. We believe that food is a shared language of love and heritage.
+                    </p>
+<p class="font-body text-on-surface-variant text-lg leading-relaxed mb-10">
+                        Every batch of pasta is hand-rolled, every cut of meat is selected with care, and every customer is greeted like family. At DiNardo's, we don't just sell ingredients; we share the foundation of a great meal.
+                    </p>
+<div class="p-6 bg-surface-container-low italic border-l-4 border-secondary text-on-tertiary-fixed-variant font-headline text-xl">
+                        "Freshness isn't a marketing slogan here—it's the only way we know how to cook."
+                    </div>
+</div>
+<div class="w-full md:w-1/2 order-1 md:order-2">
+<div class="relative">
+<div class="absolute -top-6 -left-6 w-full h-full border-2 border-primary/20 z-0"></div>
+<img class="relative z-10 w-full rounded shadow-2xl" data-alt="Candid interior shot of a bustling Italian market with shelves of olive oil, hanging cured meats, and warm ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATFsIMR7_Gp7Wb4LR35Xv0Lq5prlVBhdJlifWlV4GG3eAlckwERTcJfNSsgkpaQYsJgapR4R3nE5Xz02Ua1FFD76TxkhvbijNKNUgPUr5NjeRCdrgkk6rqZ-WMMC5AddNQXpWNFAXT0zB1IugKf9-n7lslKAQMxM2G8p10yQ2Ti7EMyZExwKFbGqwPZfYcy-HuOnA3ZJgDZgwmqfeWavgAP7Mk6JqiH8yuHc4JEAT-B1HAncZV83xy5qIvBYeM6HYjIjLOJtWpwr4"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Map/Visit Row -->
+<section class="bg-surface-container-low py-16" id="visit">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<div>
+<h3 class="font-headline text-4xl text-on-surface mb-4">Visit Our Mercato</h3>
+<p class="font-body text-on-surface-variant text-lg">We are located in the heart of Harrison, NY. Stop by to browse our daily specials or pick up dinner.</p>
+</div>
+<div class="flex flex-col gap-6">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary bg-primary/10 p-3 rounded-full">location_on</span>
+<div>
+<p class="font-label font-bold text-on-surface">Address</p>
+<p class="font-body text-on-surface-variant">120 Halstead Ave, Harrison, NY 10528</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary bg-primary/10 p-3 rounded-full">schedule</span>
+<div>
+<p class="font-label font-bold text-on-surface">Hours</p>
+<p class="font-body text-on-surface-variant">Mon – Sat: 9:00 AM – 7:00 PM</p>
+<p class="font-body text-on-surface-variant">Sunday: 10:00 AM – 4:00 PM</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary bg-primary/10 p-3 rounded-full">call</span>
+<div>
+<p class="font-label font-bold text-on-surface">Phone</p>
+<p class="font-body text-on-surface-variant">+1 914-835-5358</p>
+</div>
+</div>
+</div>
+</div>
+<div class="h-96 rounded-xl overflow-hidden shadow-inner grayscale-[0.3] hover:grayscale-0 transition-all duration-700 border border-outline-variant/30">
+<img class="w-full h-full object-cover" data-alt="Minimalist map interface showing the location of Harrison, New York with a custom teal marker at Halstead Avenue" data-location="Harrison, New York" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlq5WWuQHA_lrk_cRbECIcRMPtEKeZ24rm_XWlfr2LTPEKyreJV8YG4wAIiHYi5uDHNWNAZs_lI6nRMi2gF96X9jle6w4Jv-4-FBzGnIKbWNYpWi0xHuIoqfnTYBruwjV8MiuC2pQb1Bhg5OxiENR6wq28TebqsDokBCXbc2xAz8ULQNeugiu2XyWm3npEZxdMqyR-LpLaCS_E9XNDxnt9fAFUGicL3zKfGsTrfHKCFJM-m8CqXPt7cl1utqhrJbA9TBxrFUBVnOg"/>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#2a7a7a] dark:bg-[#003737] text-[#fdf9f3] w-full py-16 px-8 flex flex-col items-center justify-between gap-12">
+<div class="max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="space-y-6">
+<div class="text-3xl font-serif text-[#fdf9f3]">DiNardo's</div>
+<p class="font-body text-sm text-[#f7f3ed]/70 max-w-xs normal-case tracking-normal">Authentic Italian heritage served daily in the heart of Westchester.</p>
+<div class="flex gap-4">
+<a class="hover:text-secondary-container transition-colors" href="https://instagram.com/dinardoscucina">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.209-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-8">
+<div class="space-y-4">
+<h5 class="font-label text-xs uppercase tracking-widest text-[#fdf9f3]/60">Contact</h5>
+<ul class="space-y-3 font-label text-sm uppercase tracking-widest text-[#f7f3ed]/80">
+<li><a class="hover:text-white transition-opacity" href="#">120 Halstead Ave, Harrison, NY 10528</a></li>
+<li><a class="hover:text-white transition-opacity" href="tel:+19148355358">+1 914-835-5358</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h5 class="font-label text-xs uppercase tracking-widest text-[#fdf9f3]/60">Explore</h5>
+<ul class="space-y-3 font-label text-sm uppercase tracking-widest text-[#f7f3ed]/80">
+<li><a class="hover:text-white transition-opacity" href="https://instagram.com/dinardoscucina">Instagram</a></li>
+<li><a class="hover:text-white transition-opacity" href="#visit">Hours of Operation</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="w-full pt-12 border-t border-[#fdf9f3]/10 text-center">
+<p class="font-label text-xs uppercase tracking-widest text-[#f7f3ed]/50 italic">
+                © 2024 DiNardo's Cucina &amp; Mercato. All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>
