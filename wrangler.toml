@@ -1,30 +1,4 @@
 name = "dinardos-cucina"
-type = "javascript"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
-
-[env.production]
-name = "dinardos-cucina-production"
-
-[build]
-command = ""
-cwd = ""
-watch_paths = []
-
-[build.upload]
-format = "service-worker"
-
-[[r2_buckets]]
-
-[[d1_databases]]
-
-[[kv_namespaces]]
-
-[[analytics_engine_bindings]]
-
-[[logpush_jobs]]
 
 [site]
 bucket = "."
