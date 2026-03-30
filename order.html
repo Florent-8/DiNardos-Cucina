@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Order Delivery | DiNardo's Cucina &amp; Mercato</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Work+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "inverse-primary": "#88d3d3",
+              "secondary-fixed": "#ffdbcc",
+              tertiary: "#63553a",
+              "on-tertiary-fixed": "#241a05",
+              surface: "#fdf9f3",
+              "surface-container-low": "#f7f3ed",
+              "on-tertiary": "#ffffff",
+              "surface-bright": "#fdf9f3",
+              "on-secondary": "#ffffff",
+              "on-surface": "#1c1c18",
+              secondary: "#9d4311",
+              error: "#ba1a1a",
+              "on-tertiary-container": "#fff2df",
+              "surface-container-highest": "#e6e2dc",
+              "error-container": "#ffdad6",
+              "on-tertiary-fixed-variant": "#52452b",
+              "on-secondary-container": "#702900",
+              "primary-container": "#2a7a7a",
+              "surface-container": "#f1ede7",
+              primary: "#006161",
+              "on-primary": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "on-surface-variant": "#3f4948",
+              "tertiary-container": "#7d6d50",
+              "surface-variant": "#e6e2dc",
+              "primary-fixed": "#a4f0ef",
+              "on-error": "#ffffff",
+              "surface-tint": "#106969",
+              "surface-dim": "#dddad4",
+              "on-primary-fixed-variant": "#004f50",
+              "on-background": "#1c1c18",
+              outline: "#6f7979",
+              "surface-container-high": "#ebe8e2",
+              "on-secondary-fixed-variant": "#7c2e00",
+              "on-error-container": "#93000a",
+              "secondary-container": "#fe8d56",
+              "on-primary-container": "#befffe",
+              "inverse-surface": "#31302d",
+              "primary-fixed-dim": "#88d3d3",
+              "outline-variant": "#bec9c8",
+              "secondary-fixed-dim": "#ffb595",
+              "tertiary-fixed-dim": "#d8c4a2",
+              "inverse-on-surface": "#f4f0ea",
+              "on-primary-fixed": "#002020",
+              "tertiary-fixed": "#f5e0bd",
+              background: "#fdf9f3",
+              "on-secondary-fixed": "#351000",
+            },
+            fontFamily: {
+              headline: ["Newsreader", "serif"],
+              body: ["Work Sans", "sans-serif"],
+              label: ["Work Sans", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 300,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      body {
+        background: linear-gradient(
+          135deg,
+          rgba(0, 97, 97, 0.04) 0%,
+          rgba(42, 122, 122, 0.05) 50%,
+          rgba(157, 67, 17, 0.03) 100%
+        );
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-[#1c1c18] via-[#2a3a3a] to-[#1c1c18] font-body text-white antialiased min-h-screen flex items-center justify-center px-6"
+  >
+    <div class="max-w-2xl w-full">
+      <div
+        class="bg-[#2a3a3a] border border-[#4a5a5a] rounded-2xl p-12 text-center space-y-8"
+      >
+        <!-- Logo -->
+        <div class="flex justify-center mb-4">
+          <img
+            alt="DiNardo's Cucina &amp; Mercato logo"
+            class="h-20 w-auto"
+            src="logo-DiNardos.png"
+          />
+        </div>
+
+        <!-- Title -->
+        <div>
+          <p
+            class="font-label text-secondary uppercase tracking-[0.2em] font-semibold mb-4 text-sm"
+          >
+            DiNardo's Cucina &amp; Mercato
+          </p>
+          <h1
+            class="font-headline text-5xl md:text-6xl text-white leading-tight"
+          >
+            Order Delivery Now
+          </h1>
+        </div>
+
+        <!-- Subtitle -->
+        <p class="font-body text-[#bec9c8] text-lg max-w-lg mx-auto">
+          Choose your platform below. You can also call us directly for pickup
+          and delivery.
+        </p>
+
+        <!-- Action Buttons -->
+        <div class="space-y-4 pt-6">
+          <a
+            href="https://www.doordash.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block w-full bg-[#ff6b35] hover:bg-[#ff5722] text-white text-lg font-semibold py-4 rounded-lg transition-all duration-300 active:scale-95"
+          >
+            Order on DoorDash
+          </a>
+
+          <a
+            href="https://www.ubereats.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block w-full bg-[#1DB954] hover:bg-[#1ed760] text-white text-lg font-semibold py-4 rounded-lg transition-all duration-300 active:scale-95"
+          >
+            Order on Uber Eats
+          </a>
+
+          <a
+            href="tel:+19148355358"
+            class="block w-full bg-[#3f4948] hover:bg-[#4a5a5a] text-white text-lg font-semibold py-4 rounded-lg transition-all duration-300 active:scale-95"
+          >
+            Call to Order: +1 914-835-5358
+          </a>
+        </div>
+
+        <!-- Back Button -->
+        <div class="pt-6">
+          <a
+            href="code.html"
+            class="inline-flex items-center justify-center border-2 border-[#006161] text-[#006161] px-8 py-3 rounded-lg font-semibold hover:bg-[#006161] hover:text-white transition-all duration-300"
+          >
+            Back to Home
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

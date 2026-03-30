@@ -1,0 +1,232 @@
+<!doctype html>
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>DiNardo's Full Menu | Harrison, NY</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Work+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body class="bg-[#fdf9f3] font-['Work_Sans'] text-[#1c1c18] antialiased">
+    <nav
+      class="fixed top-0 left-0 w-full z-50 bg-[#fdf9f3]/90 backdrop-blur-md border-b border-[#bec9c8]/20"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-4"
+      >
+        <a aria-label="Go to homepage" class="shrink-0" href="code.html#cucina">
+          <img
+            alt="DiNardo's Cucina & Mercato logo"
+            class="h-12 md:h-14 w-auto"
+            src="logo-DiNardos.png"
+          />
+        </a>
+
+        <div
+          class="hidden md:flex items-center gap-8 font-['Newsreader'] text-lg"
+        >
+          <a
+            class="text-[#3f4948] hover:text-[#9d4311] transition-colors"
+            href="code.html#cucina"
+            >Home</a
+          >
+          <a
+            class="text-[#006161] border-b-2 border-[#9d4311] pb-1"
+            href="full-menu.html"
+            >Menu</a
+          >
+          <a
+            class="text-[#3f4948] hover:text-[#9d4311] transition-colors"
+            href="code.html#story"
+            >Our Story</a
+          >
+          <a
+            class="inline-flex items-center justify-center bg-[#9d4311] hover:bg-[#8d3b0c] text-white px-5 py-2 rounded-md font-semibold transition-all duration-200"
+            href="order.html"
+            >Order Now</a
+          >
+        </div>
+
+        <button
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          aria-label="Open menu"
+          class="md:hidden inline-flex items-center justify-center p-2 rounded-md border border-[#bec9c8] text-[#1c1c18]"
+          id="mobile-menu-button"
+          type="button"
+        >
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+
+      <div
+        class="md:hidden hidden border-t border-[#bec9c8]/30 px-6 pb-5 pt-4 bg-[#fdf9f3]/95"
+        id="mobile-menu"
+      >
+        <div class="flex flex-col gap-4 font-['Newsreader'] text-lg">
+          <a class="text-[#3f4948]" href="code.html#cucina">Home</a>
+          <a class="text-[#006161] font-semibold" href="full-menu.html">Menu</a>
+          <a class="text-[#3f4948]" href="code.html#story">Our Story</a>
+          <a
+            href="order.html"
+            class="bg-[#9d4311] hover:bg-[#8d3b0c] text-white px-4 py-2 rounded-md font-semibold text-center transition-all duration-200"
+          >
+            Order Now
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="pt-32 pb-20">
+      <section class="max-w-7xl mx-auto px-6 mb-12">
+        <h1
+          class="font-['Newsreader'] text-5xl md:text-7xl tracking-tight mb-4"
+        >
+          Our Full Menu
+        </h1>
+        <p class="text-[#3f4948] text-lg max-w-3xl">
+          Freshly prepared classics, premium imports, and house specialties from
+          DiNardo's Cucina & Mercato.
+        </p>
+      </section>
+
+      <section
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-8"
+      >
+        <article
+          id="cucina-menu"
+          class="bg-[#f7f3ed] p-8 rounded-lg border-t-4 border-[#2a7a7a]"
+        >
+          <h2 class="font-['Newsreader'] text-3xl mb-6">Cucina</h2>
+          <ul class="space-y-4 text-[#3f4948]">
+            <li class="flex justify-between gap-4">
+              <span>Lasagna Bolognese</span
+              ><span class="font-semibold text-[#9d4311]">$18</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Chicken Parmigiana</span
+              ><span class="font-semibold text-[#9d4311]">$19</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Penne alla Vodka</span
+              ><span class="font-semibold text-[#9d4311]">$16</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Eggplant Rollatini</span
+              ><span class="font-semibold text-[#9d4311]">$17</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Weekend Seasonal Special</span
+              ><span class="font-semibold text-[#9d4311]">MP</span>
+            </li>
+          </ul>
+        </article>
+
+        <article
+          id="mercato-menu"
+          class="bg-[#f7f3ed] p-8 rounded-lg border-t-4 border-[#2a7a7a]"
+        >
+          <h2 class="font-['Newsreader'] text-3xl mb-6">Mercato</h2>
+          <ul class="space-y-4 text-[#3f4948]">
+            <li class="flex justify-between gap-4">
+              <span>Parmigiano Reggiano (per lb)</span
+              ><span class="font-semibold text-[#9d4311]">$24</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Prosciutto di Parma (per lb)</span
+              ><span class="font-semibold text-[#9d4311]">$29</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Imported Olive Oil</span
+              ><span class="font-semibold text-[#9d4311]">$18</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Artisan Dry Pasta</span
+              ><span class="font-semibold text-[#9d4311]">$8</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>House Marinated Olives</span
+              ><span class="font-semibold text-[#9d4311]">$9</span>
+            </li>
+          </ul>
+        </article>
+
+        <article
+          id="prepared-menu"
+          class="bg-[#f7f3ed] p-8 rounded-lg border-t-4 border-[#2a7a7a]"
+        >
+          <h2 class="font-['Newsreader'] text-3xl mb-6">Prepared Foods</h2>
+          <ul class="space-y-4 text-[#3f4948]">
+            <li class="flex justify-between gap-4">
+              <span>Chicken Cutlets (4pc)</span
+              ><span class="font-semibold text-[#9d4311]">$14</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Meatballs (6pc)</span
+              ><span class="font-semibold text-[#9d4311]">$12</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Roasted Vegetable Tray</span
+              ><span class="font-semibold text-[#9d4311]">$16</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Family Caesar Salad</span
+              ><span class="font-semibold text-[#9d4311]">$13</span>
+            </li>
+            <li class="flex justify-between gap-4">
+              <span>Tiramisu (slice)</span
+              ><span class="font-semibold text-[#9d4311]">$7</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="max-w-7xl mx-auto px-6 mt-12">
+        <div
+          class="bg-[#ebe8e2] rounded-xl p-8 flex flex-col md:flex-row gap-5 md:items-center md:justify-between"
+        >
+          <div>
+            <h3 class="font-['Newsreader'] text-3xl">Need Catering?</h3>
+            <p class="text-[#3f4948] mt-1">
+              Call us to plan trays, platters, and family-style orders for your
+              event.
+            </p>
+          </div>
+          <a
+            class="inline-flex items-center justify-center bg-[#2a7a7a] text-white px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
+            href="tel:+19148355358"
+            >Call +1 914-835-5358</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      const toggleMobileMenu = () => {
+        const open = !mobileMenu.classList.contains("hidden");
+        mobileMenu.classList.toggle("hidden");
+        mobileMenuButton.setAttribute("aria-expanded", String(!open));
+        mobileMenuButton.innerHTML = `<span class="material-symbols-outlined">${open ? "menu" : "close"}</span>`;
+      };
+
+      mobileMenuButton.addEventListener("click", toggleMobileMenu);
+      document.querySelectorAll("#mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          if (!mobileMenu.classList.contains("hidden")) toggleMobileMenu();
+        });
+      });
+    </script>
+  </body>
+</html>
