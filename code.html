@@ -109,7 +109,9 @@
       }
     </style>
   </head>
-  <body class="bg-surface font-body text-on-surface antialiased selection:bg-secondary/20">
+  <body
+    class="bg-surface font-body text-on-surface antialiased selection:bg-secondary/20"
+  >
     <!-- Top Navigation Bar -->
     <nav
       class="fixed top-0 left-0 w-full z-50 bg-[#fdf9f3]/85 dark:bg-[#1c1c18]/85 backdrop-blur-md border-b border-[#bec9c8]/20 transition-all duration-300"
@@ -145,16 +147,24 @@
             Order Now
           </a>
         </div>
-        <button
-          aria-controls="mobile-menu"
-          aria-expanded="false"
-          aria-label="Open menu"
-          class="md:hidden inline-flex items-center justify-center p-2 rounded-md border border-outline-variant/40 text-on-surface"
-          id="mobile-menu-button"
-          type="button"
-        >
-          <span class="material-symbols-outlined">menu</span>
-        </button>
+        <div class="md:hidden flex items-center gap-2">
+          <a
+            href="order.html"
+            class="inline-flex items-center justify-center bg-secondary hover:bg-[#8d3b0c] text-on-secondary px-3 py-2 rounded-md text-sm font-semibold transition-all duration-200"
+          >
+            Order Now
+          </a>
+          <button
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Open menu"
+            class="inline-flex items-center justify-center p-2 rounded-md border border-outline-variant/40 text-on-surface"
+            id="mobile-menu-button"
+            type="button"
+          >
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+        </div>
       </div>
       <div
         class="md:hidden hidden border-t border-outline-variant/20 px-6 pb-5 pt-4 bg-surface/95"
