@@ -1,3 +1,14 @@
-name = "dinardos-cucina"
-compatibility_date = "2026-03-30"
-pages_build_output_dir = "."
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "katsu-katsu",
+  "compatibility_date": "2025-09-27",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
