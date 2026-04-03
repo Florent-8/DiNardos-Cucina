@@ -206,16 +206,20 @@
     </nav>
     <!-- Hero Section -->
     <header
-      class="relative h-[85vh] w-full flex items-center justify-center overflow-hidden"
+      class="relative h-[68vh] sm:h-[74vh] md:h-[85vh] w-full flex items-center justify-center overflow-hidden"
       id="cucina"
     >
       <div
-        class="absolute inset-0 bg-cover bg-center"
-        data-alt="Wide shot of a charming Italian deli storefront with a signature deep teal awning and large windows displaying gourmet foods"
+        aria-hidden="true"
+        class="absolute inset-0 bg-cover bg-center md:hidden"
+        style="background-image: url(&quot;image-portrait.png&quot;)"
+      ></div>
+      <div
+        aria-hidden="true"
+        class="absolute inset-0 hidden bg-cover bg-center md:block"
         style="background-image: url(&quot;image.png&quot;)"
-      >
-        <div class="absolute inset-0 hero-gradient"></div>
-      </div>
+      ></div>
+      <div class="absolute inset-0 hero-gradient"></div>
       <div class="relative z-10 text-center px-4 max-w-4xl">
         <h1
           class="font-headline text-5xl md:text-8xl text-surface font-extrabold tracking-tight mb-4 drop-shadow-sm"
